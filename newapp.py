@@ -23,14 +23,20 @@ def get_file_mtime(filepath):
 def load_resources(mtime):
     embedder = SentenceTransformer('all-MiniLM-L6-v2')
     
-    # 1. Read the raw text file
-    with open("company_handbook.txt", "r", encoding="utf-16") as f:
-        text = f.read()
+    # --- SMART READ LOGIC ---
+    try:
+        # Try standard UTF-8 first (GitHub's default)
+        with open("company_handbook.txt", "r", encoding="utf-8") as f:
+            text = f.read()
+    except UnicodeDecodeError:
+        # Fallback to UTF-16 if it's a Windows-style file
+        with open("company_handbook.txt", "r", encoding="utf-16") as f:
+            text = f.read()
     
-    # 2. Chunk it on the fly
+    # Chunking
     chunks = [p.strip() for p in text.split('\n\n') if p.strip()]
     
-    # 3. Build the FAISS index in RAM (no more .index files needed!)
+    # Build the FAISS index
     embeddings = embedder.encode(chunks)
     index = faiss.IndexFlatL2(embeddings.shape[1])
     index.add(np.array(embeddings).astype('float32'))
