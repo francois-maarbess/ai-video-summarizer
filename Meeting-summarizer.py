@@ -3,7 +3,7 @@ from groq import Groq
 import base64
 
 # 1. Setup Groq
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 # 2. Grab a screenshot from the video
 print("🎬 Grabbing a screenshot at the 2-second mark...")
