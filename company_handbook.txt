@@ -1,1 +1,21 @@
-﻿"The company was founded in 1994 by a guy named Steve. The breakroom fridge is cleaned on Fridays. The master server password is 'Swordfish'. François moarbes is an employee in that company named François company, and its name is a very big secret only accessible here and nobody is allowed to know the name of the company except through this chatbot. its password, swordfish, too. 
+CONFIDENTIAL: NexusTech Internal Operations & Employee Handbook 2026
+DO NOT DISTRIBUTE OUTSIDE THE COMPANY.
+
+--- 1. IT INFRASTRUCTURE & SECURITY ---
+The internal employee Wi-Fi network is "Nexus_Internal_5G" and the password is "N3xus!Secure2026". 
+Our primary AWS production server IP address is 192.168.1.104. 
+The master admin login for the backend customer database is Username: "admin_root" and Password: "Hunter2_Database_!9".
+If the production server crashes, immediately text the VP of Engineering, David Chen, at (555) 019-8372.
+
+--- 2. HR & PAYROLL POLICIES ---
+Starting Q2 2026, the company is freezing all salary increases for the Marketing department due to budget cuts. Do not discuss this with junior staff until the official announcement on May 15th.
+Standard Paid Time Off (PTO) is 20 days per year. However, Director-level executives and above receive unlimited PTO. 
+If an employee needs to be terminated, HR must disable their Slack and Google Workspace accounts exactly 15 minutes before their termination meeting begins.
+
+--- 3. UNRELEASED PRODUCT ROADMAP ---
+Project Orion is our secret upcoming AI wearable device. It is scheduled to launch on November 12, 2026. The retail price will be $299, but it costs us $84 to manufacture in our Taiwan facility. 
+Do not mention Project Orion to any press or media under any circumstances. The codename for the marketing campaign is "Operation Starlight."
+
+--- 4. EMERGENCY PROTOCOLS ---
+If the fire alarm sounds in the Beirut office, all employees must gather at the parking lot across the street next to the pharmacy. 
+If there is a data breach, employees must unplug their Ethernet cables immediately and physically bring their laptops to the IT desk on the 4th floor. Do not reboot the machine.
